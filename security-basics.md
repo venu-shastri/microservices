@@ -3,7 +3,7 @@
 ## Be Secure By Design 
 Secure by design means that you bake security into your software design from the beginning. If you have user input, sanitize the data and remove malicious characters
 ```java
-
+//Bad Design
 public class User {
    private final Long id;
    private final String username;
@@ -17,6 +17,7 @@ public class User {
 }
 ```
 ``` java
+// Good Design
 public class Username {
    private static final int MINIMUM_LENGTH = 4;
    private static final int MAXIMUM_LENGTH = 40;
@@ -56,5 +57,5 @@ public class User {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDc0NDE1MDMsNzcyNDM4MTM0XX0=
+eyJoaXN0b3J5IjpbLTE3OTk3NDM2MjcsNzcyNDM4MTM0XX0=
 -->
