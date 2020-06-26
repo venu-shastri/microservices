@@ -27,7 +27,7 @@ server:
     key-password: password
   port: 8443
 ```
-####
+>use  an **HTTP Strict-Transport-Security** response header (abbreviated as `HSTS`) to tell browsers they should only access a website using HTTPS.
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJuNUhTUHdPSGgzOUtpRFE2Ijp7In
@@ -35,6 +35,6 @@ N0YXJ0IjozNTAsImVuZCI6MzUwLCJ0ZXh0IjoiTGlzdCBpdGVt
 In19LCJjb21tZW50cyI6eyJNVjFjTDAybk9tMVgxbWJzIjp7Im
 Rpc2N1c3Npb25JZCI6Im41SFNQd09IaDM5S2lEUTYiLCJzdWIi
 OiJnaDoxMjE4NTcwMiIsInRleHQiOiJQcml2YWN5IiwiY3JlYX
-RlZCI6MTU5MzE0ODE4MTg2MX19LCJoaXN0b3J5IjpbOTMyMTcw
-NDcxLDk2MzM4NDk2MF19
+RlZCI6MTU5MzE0ODE4MTg2MX19LCJoaXN0b3J5IjpbMTQ5NTY2
+NzEwOCw5NjMzODQ5NjBdfQ==
 -->
