@@ -6,9 +6,9 @@ Many of the libraries we use to develop software depend on other libraries. Tran
 
  - GitHub user,  use [dependabot](https://dependabot.com/) to provide automated updates via pull requests
  - [https://snyk.io/](https://snyk.io/)
- - 
+ - [https://jfrog.com/xray/](https://jfrog.com/xray/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTQyNzU5MSwzOTExNTEwMDcsLTE5NT
+eyJoaXN0b3J5IjpbMTM1NTY0ODEyOCwzOTExNTEwMDcsLTE5NT
 g1NTc5NTZdfQ==
 -->
