@@ -15,12 +15,14 @@ Https Addresses there security needs
 	- Let’s Encrypt recommends you use [Certbot](https://certbot.eff.org/) to obtain and renew your certificates
      >**Certbot** is a free, open-source software tool for automatically using Let’s Encrypt certificates on manually-administrated websites to enable HTTPS. The Electronic Frontier Foundation (EFF) created and maintains Certbot.
 
+### How to use a certificate with Spring Boot
+#### src/main/resources/application.yml
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJuNUhTUHdPSGgzOUtpRFE2Ijp7In
 N0YXJ0IjozNTAsImVuZCI6MzUwLCJ0ZXh0IjoiTGlzdCBpdGVt
 In19LCJjb21tZW50cyI6eyJNVjFjTDAybk9tMVgxbWJzIjp7Im
 Rpc2N1c3Npb25JZCI6Im41SFNQd09IaDM5S2lEUTYiLCJzdWIi
 OiJnaDoxMjE4NTcwMiIsInRleHQiOiJQcml2YWN5IiwiY3JlYX
-RlZCI6MTU5MzE0ODE4MTg2MX19LCJoaXN0b3J5IjpbLTQyNTc1
-NTMwMCw5NjMzODQ5NjBdfQ==
+RlZCI6MTU5MzE0ODE4MTg2MX19LCJoaXN0b3J5IjpbLTE0NDM4
+OTg5MTcsOTYzMzg0OTYwXX0=
 -->
