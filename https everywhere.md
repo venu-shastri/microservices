@@ -17,12 +17,24 @@ Https Addresses there security needs
 
 ### How to use a certificate with Spring Boot
 #### src/main/resources/application.yml
+``` yml
+server:
+  ssl:
+    key-store: classpath:keystore.p12
+    key-store-password: password
+    key-store-type: pkcs12
+    key-alias: tomcat
+    key-password: password
+  port: 8443
+```
+####
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJuNUhTUHdPSGgzOUtpRFE2Ijp7In
 N0YXJ0IjozNTAsImVuZCI6MzUwLCJ0ZXh0IjoiTGlzdCBpdGVt
 In19LCJjb21tZW50cyI6eyJNVjFjTDAybk9tMVgxbWJzIjp7Im
 Rpc2N1c3Npb25JZCI6Im41SFNQd09IaDM5S2lEUTYiLCJzdWIi
 OiJnaDoxMjE4NTcwMiIsInRleHQiOiJQcml2YWN5IiwiY3JlYX
-RlZCI6MTU5MzE0ODE4MTg2MX19LCJoaXN0b3J5IjpbLTE0NDM4
-OTg5MTcsOTYzMzg0OTYwXX0=
+RlZCI6MTU5MzE0ODE4MTg2MX19LCJoaXN0b3J5IjpbOTMyMTcw
+NDcxLDk2MzM4NDk2MF19
 -->
