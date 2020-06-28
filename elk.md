@@ -12,7 +12,11 @@ Elasticsearch is a highly scalable open-source full-text search and analytics en
 ### Elastic Search Basic Concepts
 - **Near Real-time (NRT):** near real-time search platform means that exist a slight latency (normally one second) from the time you index a document until the time it becomes searchable.
 - **Cluster:** is a collection of one or more nodes (servers) that together holds your entire data and provides federated indexing and search capabilities across all nodes.
+- **Node:** is a single server that is part of your cluster, stores your data, and participates in the cluster’s indexing and search capabilities.
+- **Index:** is a collection of documents that have somewhat similar characteristics.
+- **Document:** is a basic unit of information that can be indexed. This document is expressed in [JSON](http://json.org/) (JavaScript Object Notation) which is a ubiquitous internet data interchange format.
+## Logstash
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUxNDY4MDBdfQ==
+eyJoaXN0b3J5IjpbOTI5MjA2NzA0XX0=
 -->
