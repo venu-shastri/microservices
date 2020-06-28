@@ -68,11 +68,11 @@ Apache Kafka is a distributed streaming platform
 -   Each record consists of a **key**, a **value**, and a **timestamp**.
 
 ## Why Kafka
-If you study **ELK** you would feel like it is sufficient for your solution and **Kafka** would appear surplus. However, **Kafka** has important role to play when it comes to scale. When many of your Java applications would send logs to **ELK**, **ELK** may become overloaded and break. To avoid **ELK** from overload your architect has setup a buffer (**Kafka**). **Kafka** will receive logs from applications and queue it up in case ELK is under load. In this way you do not break **ELK** and also you do not loose logs when **ELK** is struggling.
+**ELK**  is sufficient for your Logging and Monitoring and **Kafka** would appear surplus. However, **Kafka** has important role to play when it comes to scale. When many of  Java applications would send logs to **ELK**, **ELK** may become overloaded and break. To avoid **ELK** from overload setup a buffer (**Kafka**). **Kafka** will receive logs from applications and queue it up in case ELK is under load. In this way Architecture not break **ELK** and do not loose logs when **ELK** is struggling.
 # Finally
 Architect a solution to get the log files and feed into a kafka topic and from kafka feed it into logstash and push it to elastic search and view the logs in kibana
 Logstash has a [kafka](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-kafka.html) input and an [elasticsearch](https://www.elastic.co/guide/en/logstash/current/plugins-outputs-elasticsearch.html) output,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTYxMTM4Nyw1OTkyMzE3ODgsLTI4MT
-I2OTU0MSw5MjkyMDY3MDRdfQ==
+eyJoaXN0b3J5IjpbLTEyNjMzNDQ1ODUsNTk5MjMxNzg4LC0yOD
+EyNjk1NDEsOTI5MjA2NzA0XX0=
 -->
