@@ -34,7 +34,11 @@ Filters are intermediary processing devices in the Logstash pipeline.  Combine f
 -   **geoip**: add information about geographical location of IP addresses (also displays amazing charts in Kibana!)
 
 #### Outputs
-
+Outputs are the final phase of the Logstash pipeline. An event can pass through multiple outputs, but once all output processing is complete, the event has finished its execution
+-   **elasticsearch: send event data to Elasticsearch. If you’re planning to save your data in an efficient, convenient, and easily queryable format… Elasticsearch is the way to go. Period. Yes, we’re biased :)
+-   file: write event data to a file on disk.
+-   graphite: send event data to graphite, a popular open source tool for storing and graphing metrics.  [http://graphite.readthedocs.io/en/latest/](http://graphite.readthedocs.io/en/latest/)
+-   statsd: send event data to statsd, a service that “listens for statistics, like counters and timers, sent over UDP and sends aggregates to one or more pluggable backend services”. If you’re already using statsd, this could be useful for you!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY2NDM1NSw5MjkyMDY3MDRdfQ==
+eyJoaXN0b3J5IjpbODEzMDM1NTIzLDkyOTIwNjcwNF19
 -->
