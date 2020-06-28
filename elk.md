@@ -66,7 +66,8 @@ Apache Kafka is a distributed streaming platform
 - Kafka run as a cluster on one or more servers that can span multiple datacenters.
 -   The Kafka cluster stores streams of  **records**  in categories called  **topics**.
 -   Each record consists of a **key**, a **value**, and a **timestamp**.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MjMxNzg4LC0yODEyNjk1NDEsOTI5Mj
-A2NzA0XX0=
+eyJoaXN0b3J5IjpbLTE5MjUyNTA5ODIsNTk5MjMxNzg4LC0yOD
+EyNjk1NDEsOTI5MjA2NzA0XX0=
 -->
