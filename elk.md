@@ -16,7 +16,10 @@ Elasticsearch is a highly scalable open-source full-text search and analytics en
 - **Index:** is a collection of documents that have somewhat similar characteristics.
 - **Document:** is a basic unit of information that can be indexed. This document is expressed in [JSON](http://json.org/) (JavaScript Object Notation) which is a ubiquitous internet data interchange format.
 ## Logstash
+LogStash event processing pipeline has three stages:
+#### inputs
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5MjA2NzA0XX0=
+eyJoaXN0b3J5IjpbLTY3MDU4OTk1Miw5MjkyMDY3MDRdfQ==
 -->
