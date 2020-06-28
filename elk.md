@@ -53,6 +53,8 @@ Beats are great for gathering data and hey sit on your servers, with your contai
 -   [Packetbeat](https://www.elastic.co/guide/en/beats/packetbeat/6.6/packetbeat-getting-started.html): monitors the network and applications by sniffing packets.
 -   [Winlogbeat](https://www.elastic.co/guide/en/beats/winlogbeat/6.6/winlogbeat-getting-started.html): fetches and ships Windows Event logs.
 ## Kibana
+Kibana is an open source analytics and visualization platform designed to work with Elasticsearch.  Kibana enables to search, view, and interact with data stored in Elasticsearch indices and can easily perform advanced data analysis and visualize  data in a variety of charts, tables, and maps.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTI2OTU0MSw5MjkyMDY3MDRdfQ==
+eyJoaXN0b3J5IjpbMTg3NzcwNTc3LC0yODEyNjk1NDEsOTI5Mj
+A2NzA0XX0=
 -->
