@@ -20,8 +20,11 @@ LogStash event processing pipeline has three stages:
 #### inputs
 This stage help us to  to get data into Logstash
 ##### commonly-used inputs are:
-- 
+- **file**: reads from a file on the filesystem, much like the UNIX command  `tail -0F`
+-   **syslog**: listens on the well-known port 514 for syslog messages and parses according to the RFC3164 format
+-   **redis**: reads from a redis server, using both redis channels and redis lists. Redis is often used as a “broker” in a centralized Logstash installation, which queues Logstash events from remote Logstash “shippers”.
+-   **beats**: processes events sent by  [Beats](https://www.elastic.co/downloads/beats).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA5OTQ3NjUsOTI5MjA2NzA0XX0=
+eyJoaXN0b3J5IjpbLTEzNjAzMjMzODAsOTI5MjA2NzA0XX0=
 -->
