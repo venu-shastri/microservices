@@ -43,7 +43,16 @@ Outputs are the final phase of the Logstash pipeline. An event can pass through 
 -   **statsd**: send event data to statsd, a service that “listens for statistics, like counters and timers, sent over UDP and sends aggregates to one or more pluggable backend services”. If you’re already using statsd, this could be useful for you!
 ## Beats
 Beats are great for gathering data and hey sit on your servers, with your containers, or deploy as functions. Beats can centralize data in Elasticsearch or to add  processing muscle, Beats can also ship to Logstash for transformation and parsing.
-#### Different Types of
+#### Different Types of Beats
+-   [Auditbeat](https://www.elastic.co/guide/en/beats/auditbeat/6.6/auditbeat-getting-started.html): collect your Linux audit framework data and monitor the integrity of your files.
+-   [Filebeat](https://www.elastic.co/guide/en/beats/filebeat/6.6/filebeat-getting-started.html): tails and ships log files.
+-   [Functionbeat](https://www.elastic.co/guide/en/beats/functionbeat/6.6/functionbeat-getting-started.html): read and ships events from serverless infrastructure.
+-   [Heartbeat](https://www.elastic.co/guide/en/beats/heartbeat/6.6/heartbeat-getting-started.html): ping remote services for availability.
+-   [Journalbeat](https://www.elastic.co/guide/en/beats/journalbeat/6.6/journalbeat-getting-started.html): read and ships event from Journald.
+-   [Metricbeat](https://www.elastic.co/guide/en/beats/metricbeat/6.6/metricbeat-getting-started.html): fetches sets of metrics from the operating system and services.
+-   [Packetbeat](https://www.elastic.co/guide/en/beats/packetbeat/6.6/packetbeat-getting-started.html): monitors the network and applications by sniffing packets.
+-   [Winlogbeat](https://www.elastic.co/guide/en/beats/winlogbeat/6.6/winlogbeat-getting-started.html): fetches and ships Windows Event logs.
+## Kibana
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4ODgxOTgsOTI5MjA2NzA0XX0=
+eyJoaXN0b3J5IjpbLTI4MTI2OTU0MSw5MjkyMDY3MDRdfQ==
 -->
