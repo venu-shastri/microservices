@@ -57,7 +57,9 @@ Kibana is an open source analytics and visualization platform designed to work w
 
 ## Kafka
 Apache Kafka is a distributed streaming platform
+
+### Kafka streaming platform has three key capabilities
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjE1ODY4NiwtMjgxMjY5NTQxLDkyOT
+eyJoaXN0b3J5IjpbMTEzODk5MDQwMywtMjgxMjY5NTQxLDkyOT
 IwNjcwNF19
 -->
