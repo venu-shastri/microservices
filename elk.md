@@ -25,6 +25,8 @@ This stage help us to  to get data into Logstash
 -   **redis**: reads from a redis server, using both redis channels and redis lists. Redis is often used as a “broker” in a centralized Logstash installation, which queues Logstash events from remote Logstash “shippers”.
 -   **beats**: processes events sent by  [Beats](https://www.elastic.co/downloads/beats).
 
+#### Filters
+Filters are intermediary processing devices in the Logstash pipeline.  Combine filters with conditionals to perform an action on an event if it meets certain criteria. Some useful filters include:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjAzMjMzODAsOTI5MjA2NzA0XX0=
+eyJoaXN0b3J5IjpbLTEwNjM0ODY1ODYsOTI5MjA2NzA0XX0=
 -->
