@@ -26,7 +26,12 @@ This stage help us to  to get data into Logstash
 -   **beats**: processes events sent by  [Beats](https://www.elastic.co/downloads/beats).
 
 #### Filters
-Filters are intermediary processing devices in the Logstash pipeline.  Combine filters with conditionals to perform an action on an event if it meets certain criteria. Some useful filters include:
+Filters are intermediary processing devices in the Logstash pipeline.  Combine filters with conditionals to perform an action on an event if it meets certain criteria. 
+-   **grok**: parse and structure arbitrary text. Grok is currently the best way in Logstash to parse unstructured log data into something structured and queryable. With 120 patterns built-in to Logstash, it’s more than likely you’ll find one that meets your needs!
+-   **mutate**: perform general transformations on event fields. You can rename, remove, replace, and modify fields in your events.
+-   **drop**: drop an event completely, for example,  _debug_  events.
+-   **clone**: make a copy of an event, possibly adding or removing fields.
+-   **geoip**: add information about geographical location of IP addresses (also displays amazing charts in Kibana!)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM0ODY1ODYsOTI5MjA2NzA0XX0=
+eyJoaXN0b3J5IjpbMTkzNTU5NTk3Myw5MjkyMDY3MDRdfQ==
 -->
