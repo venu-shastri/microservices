@@ -66,8 +66,9 @@ Apache Kafka is a distributed streaming platform
 - Kafka run as a cluster on one or more servers that can span multiple datacenters.
 -   The Kafka cluster stores streams of  **records**  in categories called  **topics**.
 -   Each record consists of a **key**, a **value**, and a **timestamp**.
-
+# Finally
+Architect a solution to get the log files and feed into a kafka topic and from kafka feed it into logstash and push it to elastic search and view the logs in kibana
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUyNTA5ODIsNTk5MjMxNzg4LC0yOD
+eyJoaXN0b3J5IjpbLTExNTYxNDExMjcsNTk5MjMxNzg4LC0yOD
 EyNjk1NDEsOTI5MjA2NzA0XX0=
 -->
