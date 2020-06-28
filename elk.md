@@ -18,8 +18,10 @@ Elasticsearch is a highly scalable open-source full-text search and analytics en
 ## Logstash
 LogStash event processing pipeline has three stages:
 #### inputs
-
+This stage help us to  to get data into Logstash
+##### commonly-used inputs are:
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDU4OTk1Miw5MjkyMDY3MDRdfQ==
+eyJoaXN0b3J5IjpbLTEyMzA5OTQ3NjUsOTI5MjA2NzA0XX0=
 -->
