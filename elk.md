@@ -17,7 +17,7 @@ Elasticsearch is a highly scalable open-source full-text search and analytics en
 - **Document:** is a basic unit of information that can be indexed. This document is expressed in [JSON](http://json.org/) (JavaScript Object Notation) which is a ubiquitous internet data interchange format.
 ## Logstash
 LogStash event processing pipeline has three stages:
-#### inputs
+#### Inputs
 This stage help us to  to get data into Logstash
 ##### commonly-used inputs are:
 - **file**: reads from a file on the filesystem, much like the UNIX command  `tail -0F`
@@ -32,6 +32,9 @@ Filters are intermediary processing devices in the Logstash pipeline.  Combine f
 -   **drop**: drop an event completely, for example,  _debug_  events.
 -   **clone**: make a copy of an event, possibly adding or removing fields.
 -   **geoip**: add information about geographical location of IP addresses (also displays amazing charts in Kibana!)
+
+#### Outputs
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTU5NTk3Myw5MjkyMDY3MDRdfQ==
+eyJoaXN0b3J5IjpbLTExODY2NDM1NSw5MjkyMDY3MDRdfQ==
 -->
