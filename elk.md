@@ -41,6 +41,9 @@ Outputs are the final phase of the Logstash pipeline. An event can pass through 
 -   **file**: write event data to a file on disk.
 -   **graphite**: send event data to graphite, a popular open source tool for storing and graphing metrics.  [http://graphite.readthedocs.io/en/latest/](http://graphite.readthedocs.io/en/latest/)
 -   **statsd**: send event data to statsd, a service that “listens for statistics, like counters and timers, sent over UDP and sends aggregates to one or more pluggable backend services”. If you’re already using statsd, this could be useful for you!
+## Beats
+Beats are great for gathering data and hey sit on your servers, with your containers, or deploy as functions. Beats can centralize data in Elasticsearch or to add  processing muscle, Beats can also ship to Logstash for transformation and parsing.
+#### Different Types of
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTczMjQ0NDMsOTI5MjA2NzA0XX0=
+eyJoaXN0b3J5IjpbMzg4ODgxOTgsOTI5MjA2NzA0XX0=
 -->
