@@ -14,37 +14,20 @@ available on AWS and GCP.
 
 To download and install ElasticSeacrch, open a terminal window and use the commands that work with your system 
 
-. Download the elasticsearch Windows zip file from the
-https://www.elastic.co/downloads/elasticsearch[{es} download] page.
+. Download the **ElasticSearch** Windows zip file from the
+https://www.elastic.co/downloads/elasticsearch[ES download] page.
 
 . Extract the contents of the zip file to a directory on your computer, for
 example, `C:\Program Files`.
 
-. Open a command prompt as an Administrator and navigate to the directory that
-contains the extracted files, for example:
+. Open a command prompt as an Administrator and navigate to the directory that contains the extracted files, for example:
 +
-["source","sh",subs="attributes,callouts"]
+
 ----------------------------------------------------------------------
 cd C:\Program Files\elasticsearch-{elasticsearch_version}
-----------------------------------------------------------------------
-
-. Start {es}:
-+
-["source","sh",subs="attributes,callouts"]
-----------------------------------------------------------------------
-bin\elasticsearch.bat
-----------------------------------------------------------------------
-
-endif::[]
-
-For other operating systems, go to the
-https://www.elastic.co/downloads/elasticsearch[{es} download] page.
-
-To learn more about installing, configuring, and running {es}, read the
-https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html[{es} Reference].
-
-[float]
-==== Make sure {es} is up and running
+----------------------------------------------------------bin\elasticsearch.bat
+-------------------------------------------------------------
+Make sure {es} is up and running
 
 
 To test that the {es} daemon is up and running, try sending an HTTP GET
@@ -772,5 +755,5 @@ Later, when you're ready to set up a production environment, also see the
 Guide].
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY1Nzk5NDYsMTUwMzkzNTg1Ml19
+eyJoaXN0b3J5IjpbMTIyMTQ4MzkyNSwxNTAzOTM1ODUyXX0=
 -->
