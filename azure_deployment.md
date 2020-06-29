@@ -23,13 +23,13 @@ eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjZRRjI6RkRNTTpSUjQ2OkE3WFg6N0Q3UjpF
 
 ### Tag the image 
 
->docker tag rest-example:latest  <NameOfRegi/rest-example:latest 
+>docker tag rest-example:latest  {NameOfRegistryServerAddress}/rest-example:latest 
 
-push the image to azure container registry
-docker push tritechcontainerregistry.azurecr.io/rest-example:latest
+##### Push the image to azure container registry
+> docker push tritechcontainerregistry.azurecr.io/rest-example:latest
 
-List Images from the Azure Container Registry
-az acr repository list -n tritechcontainerregistry.azurecr.io -o table
+#### List Images from the Azure Container Registry
+>az acr repository list -n tritechcontainerregistry.azurecr.io -o table
 
 Get Tags assoictaed with images 
 az acr repository show-tags -n tritechcontainerregistry.azurecr.io --repository rest-example -o table
@@ -68,5 +68,5 @@ az  container logs -n restexamplecontainerone  -g TritechAcr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5Mjc5OTcxXX0=
+eyJoaXN0b3J5IjpbMTIxNzgzNjM2OV19
 -->
