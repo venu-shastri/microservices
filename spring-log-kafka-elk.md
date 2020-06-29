@@ -5,46 +5,9 @@
 
 * install-elasticsearch
 * instll - kibana
+* install-logstash
 
-* <<install-logstash,{ls} (optional)>>
 
-Then you learn how to implement a system monitoring solution that uses
-{metricbeat} to collect server metrics and ship the data to {es}, where you can
-search and visualize the data by using {kib}. After you get the basic setup
-working, you add {ls} for additional parsing.
-
-To get started, you can install the {stack} on a single VM or even on your
-laptop.
-
-IMPORTANT: Implementing security is a critical step in setting up the {stack}.
-To get up and running quickly with a sample installation, you skip those steps
-right now. Before sending sensitive data across the network, make sure you
-{ref}/elasticsearch-security.html[secure the {stack}] and enable
-{ref}/encrypting-communications.html[encrypted communications].
-
-[float]
-[[install-prereqs]]
-=== Before you begin
-
-* See the https://www.elastic.co/support/matrix[Elastic Support
-Matrix] for information about supported operating systems and product
-compatibility.
-
-* Verify that your system meets the
-https://www.elastic.co/support/matrix#matrix_jvm[minimum JVM requirements] for
-{ls} and {es}.
-
-[float]
-[[install-elasticsearch]]
-=== Install {es}
-
-https://www.elastic.co/products/elasticsearch[{es}] is a real-time,
-distributed storage, search, and analytics engine. It can be used for many
-purposes, but one context where it excels is indexing streams of semi-structured
-data, such as logs or decoded network packets.
-
-[TIP]
-==========
 Elasticsearch can be run on your own hardware or using our hosted
 Elasticsearch Service on https://www.elastic.co/cloud[Elastic Cloud], which is
 available on AWS and GCP. You can
@@ -882,5 +845,5 @@ Later, when you're ready to set up a production environment, also see the
 Guide].
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjcwNTkyMCwxNTAzOTM1ODUyXX0=
+eyJoaXN0b3J5IjpbMTUwNTIwMDcwNiwxNTAzOTM1ODUyXX0=
 -->
