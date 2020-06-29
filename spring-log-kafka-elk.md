@@ -10,84 +10,11 @@
 
 Elasticsearch can be run on your own hardware or using our hosted
 Elasticsearch Service on https://www.elastic.co/cloud[Elastic Cloud], which is
-available on AWS and GCP. You can
-{ess-trial}[try out the Elasticsearch Service] for free.
-==========
+available on AWS and GCP.
 
-To download and install {es}, open a terminal window and use the commands that
-work with your system (<<deb, deb>> for Debian/Ubuntu, <<rpm, rpm>> for
-Redhat/Centos/Fedora, <<mac, mac>> for OS X, and <<win, win>> for Windows):
+To download and install ElasticSeacrch, open a terminal window and use the commands that work with your system 
 
-
-[[deb]]*deb:*
-
-ifeval::["{release-state}"=="unreleased"]
-
-Version {elasticsearch_version} of {es} has not yet been released.
-
-endif::[]
-
-ifeval::["{release-state}"!="unreleased"]
-
-["source","sh",subs="attributes"]
-----
-curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-{elasticsearch_version}.deb
-sudo dpkg -i elasticsearch-{elasticsearch_version}.deb
-sudo /etc/init.d/elasticsearch start
-----
-
-endif::[]
-
-[[rpm]]*rpm:*
-
-ifeval::["{release-state}"=="unreleased"]
-
-Version {version} of {es} has not yet been released.
-
-endif::[]
-
-ifeval::["{release-state}"!="unreleased"]
-
-["source","sh",subs="attributes,callouts"]
-----------------------------------------------------------------------
-curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-{elasticsearch_version}.rpm
-sudo rpm -i elasticsearch-{elasticsearch_version}.rpm
-sudo service elasticsearch start
-----------------------------------------------------------------------
-
-endif::[]
-
-[[mac]]*mac:*
-
-ifeval::["{release-state}"=="unreleased"]
-
-Version {version} of {es} has not yet been released.
-
-endif::[]
-
-ifeval::["{release-state}"!="unreleased"]
-
-["source","sh",subs="attributes,callouts"]
-----------------------------------------------------------------------
-curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-{elasticsearch_version}.tar.gz
-tar -xzvf elasticsearch-{elasticsearch_version}.tar.gz
-cd elasticsearch-{elasticsearch_version}
-./bin/elasticsearch
-----------------------------------------------------------------------
-
-endif::[]
-
-[[win]]*win:*
-
-ifeval::["{release-state}"=="unreleased"]
-
-Version {version} of {es} has not yet been released.
-
-endif::[]
-
-ifeval::["{release-state}"!="unreleased"]
-
-. Download the {es} {elasticsearch_version} Windows zip file from the
+. Download the elasticsearch Windows zip file from the
 https://www.elastic.co/downloads/elasticsearch[{es} download] page.
 
 . Extract the contents of the zip file to a directory on your computer, for
@@ -845,5 +772,5 @@ Later, when you're ready to set up a production environment, also see the
 Guide].
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTIwMDcwNiwxNTAzOTM1ODUyXX0=
+eyJoaXN0b3J5IjpbLTEwOTY1Nzk5NDYsMTUwMzkzNTg1Ml19
 -->
