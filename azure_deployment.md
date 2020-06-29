@@ -29,26 +29,26 @@ eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjZRRjI6RkRNTTpSUjQ2OkE3WFg6N0Q3UjpF
 > docker push tritechcontainerregistry.azurecr.io/rest-example:latest
 
 #### List Images from the Azure Container Registry
->az acr repository list -n tritechcontainerregistry.azurecr.io -o table
+>az acr repository list -n {registryservername} -o table
 
-Get Tags assoictaed with images 
-az acr repository show-tags -n tritechcontainerregistry.azurecr.io --repository rest-example -o table
+#### Get Tags assoictaed with images 
+> az acr repository show-tags -n tritechcontainerregistry.azurecr.io --repository rest-example -o table
 
-To delete image
-az acr repository delete -n tritechcontainerregistry -t rest-example:latest 
+#### To delete image
+> az acr repository delete -n tritechcontainerregistry -t rest-example:latest 
 
 
-To know the cost of running instance of container
+#### To know the cost of running instance of container
 https://azure.microsoft.com/en-us/pricing/details/container-instances
 https://azure.microsoft.com/en-us/pricing/calculator/?service=container-instances
 
-To Create an Instance of Docker Image from repository
+#### To Create an Instance of Docker Image from repository
 
-az container create -g TritechAcr -n restexamplecontainerone --image tritechcontainerregistry.azurecr.io/rest-example:latest --ports 8080 --ip-address public --dns-name-label restexamplecontainer
+>az container create -g TritechAcr -n restexamplecontainerone --image tritechcontainerregistry.azurecr.io/rest-example:latest --ports 8080 --ip-address public --dns-name-label restexamplecontainer
 
-To View the logs
+#### To View the logs
 
-az  container logs -n restexamplecontainerone  -g TritechAcr
+>az  container logs -n restexamplecontainerone  -g TritechAcr
 
 
 
@@ -68,5 +68,5 @@ az  container logs -n restexamplecontainerone  -g TritechAcr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzgzNjM2OV19
+eyJoaXN0b3J5IjpbNzU2MDQ4MDE3XX0=
 -->
