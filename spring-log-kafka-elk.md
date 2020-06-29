@@ -30,20 +30,12 @@ cd C:\Program Files\elasticsearch-{elasticsearch_version}
 Make sure {es} is up and running
 
 
-To test that the {es} daemon is up and running, try sending an HTTP GET
-request on port 9200.
+lhttp://127.0.0.1:9200
 
-[source,shell]
-----------------------------------------------------------------------
-curl http://127.0.0.1:9200
-----------------------------------------------------------------------
-
-On Windows, if you don't have cURL installed, point your browser to the URL.
+On Windows point your browser to the URL.
 
 You should see a response similar to this:
 
-["source","sh",subs="attributes"]
-----------------------------------------------------------------------
 {
   "name" : "QtI5dUu",
   "cluster_name" : "elasticsearch",
@@ -61,16 +53,14 @@ You should see a response similar to this:
   },
   "tagline" : "You Know, for Search"
 }
-----------------------------------------------------------------------
 
 
-[float]
-[[install-kibana]]
-=== Install {kib}
 
-https://www.elastic.co/products/kibana[{kib}] is an open source analytics and
-visualization platform designed to work with {es}. You use {kib} to search,
-view, and interact with data stored in {es} indices. You can easily perform
+## install-kibana
+
+
+https://www.elastic.co/products/kibana  is an open source analytics and
+visualization platform designed to work with ElasticSearch. You use Kibana to search, view, and interact with data stored in {es} indices. You can easily perform
 advanced data analysis and visualize your data in a variety of charts, tables,
 and maps.
 
@@ -755,5 +745,5 @@ Later, when you're ready to set up a production environment, also see the
 Guide].
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTQ4MzkyNSwxNTAzOTM1ODUyXX0=
+eyJoaXN0b3J5IjpbNDU1NTE5NTg0LDE1MDM5MzU4NTJdfQ==
 -->
